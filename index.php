@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <h2><b>EBAY</b></h2>
+  <p>Search ebay products by using product ids</p>
+  <form class="form-inline" action="action.php">
+    <label for="email2" class="mb-2 mr-sm-2">Product Id:</label>
+    <input type="text" class="form-control mb-2 mr-sm-2" id="product-id" placeholder="Enter Product Id" name="product-id" required>   
+    <button type="submit" class="btn btn-primary mb-2">Search</button>
+  </form>
+</div>
+</body>
+</html>
